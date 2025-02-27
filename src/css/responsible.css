@@ -1,0 +1,144 @@
+@media (max-width: 1280px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+    border-radius: 20px;
+  }
+
+  .container header {
+    width: 100%;
+  }
+
+  .container header h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 795px) {
+  .link{
+    width: 200px;
+  }
+}
+
+@media (max-width: 630px) {
+  .container .profile-data .events span {
+    width: 240px;
+    text-align: center;
+    margin-left: 20px;
+}
+}
+
+@media (max-width: 555px) {
+  .container .profile-data .events span {
+    width: 160px;
+    text-align: center;
+    margin-left: 23px;
+}
+}
+
+@media (max-width: 515px) {
+  .container .profile-data .events span {
+    width: 150px;
+    text-align: center;
+    margin-left: 30px;
+}
+}
+
+@media (max-width: 490px) {
+  .container .profile-data .events span {
+    width: 120px;
+    text-align: center;
+    margin-left: 30px;
+}
+}
+
+@media (max-width: 460px) {
+  .container .profile-data .events span {
+    width: 80px;
+    text-align: center;
+    margin-left: 30px;
+}
+}
+
+@media (max-width: 435px) {
+  .container .profile-data .events span {
+    width: 100px;
+    text-align: center;
+    margin-left: 30px;
+}
+}
+
+@media (max-width: 425px) {
+  .container .profile-data .events span {
+    width: 80px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .container .profile-data .info img{
+      width: 10%;
+    }
+}
+
+@media (max-width: 410px) {
+  .container .profile-data .events span {
+    width: 60px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .container .profile-data .info img{
+      width: 10%;
+    }
+}
+
+@media (max-width: 390px) {
+  .container .profile-data .events span {
+    width: 45px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .container .profile-data .info img{
+      width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+  .container header #input-search,
+  .container header #btn-search
+  {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  
+  .container .profile-data .events span {
+    width: 70px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .container .profile-data .info img{
+      width: 10%;
+    }
+
+
+  main {
+    padding: 15% 0;    
+  }
+
+  .container .profile-data .info img{
+    margin-bottom: 20px;
+  }
+
+  .container .profile-data .info img,
+  .container .profile-data .info .data
+  {
+    width: 100%;
+    padding: 0;
+  }
+
+}
