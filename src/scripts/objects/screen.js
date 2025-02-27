@@ -49,8 +49,6 @@ const screen = {
     let eventsHtml = '<div class="events"><h2>Eventos</h2><ul>';
 
     user.events.forEach(event => {
-
-      console.log(event);
       if (event.type === 'PushEvent') {
         eventsHtml += 
         `

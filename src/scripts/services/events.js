@@ -6,5 +6,3 @@ async function getUserEvents(username){
 };
 
 export { getUserEvents };
-
-console.log(await getUserEvents());
