@@ -149,6 +149,7 @@ main {
 
 .container .profile-data .events li{
   list-style-type: none;
+  font-weight: bold;
 } 
 
 .container .profile-data .events span{
